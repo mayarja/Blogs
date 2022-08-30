@@ -23,7 +23,7 @@ function App() {
       <BrowserRouter>
         <Navbar user={user} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Blogs/" element={<Home />} />
           <Route path="/post/:postid" element={<Single />} />
           <Route
             path="/write"
