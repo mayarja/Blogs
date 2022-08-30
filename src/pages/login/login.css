@@ -1,0 +1,54 @@
+.login{
+    padding: 10px;
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url('../../componnets/image/image-6.jpg');
+    background-size: cover;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.login .login-form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Varela Round", Arial, sans-serif;
+}
+.login .login-form h2{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.login .login-form label{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.login .login-form input{
+    border :none;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.login .login-form button{
+    background-color: lightcoral;
+    padding: 8px 15px;
+    color: #eee;
+    border: none;
+    border-radius: 8px;
+}
+
+.login .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: teal;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+}

@@ -1,0 +1,32 @@
+.header{
+   margin-top: 70px;
+}
+.header .header-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #444;
+    font-family: "Lora", serif;
+    margin-top:0px;
+    position: relative;
+}
+
+.header .header-blog .blog-1{
+    position: absolute;
+    top : 22%;
+    font-size: 20px;
+}
+
+.header .header-blog .blog-2{
+    position: absolute;
+    top : 28px;
+    font-size: 100px;
+}
+.header img{
+    width: 100%;
+    max-width: 100%;
+    height: 510px;
+    object-fit: cover;
+    margin-top: 100px;
+}

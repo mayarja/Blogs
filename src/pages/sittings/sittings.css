@@ -1,0 +1,13 @@
+.sittings{
+    display: flex;
+    padding-top: 50px;
+}
+
+@media screen and (max-width : 600px) {
+    .sittings {
+        display: block;
+    }
+    .slidbar{
+        margin: 20px;
+    }
+}

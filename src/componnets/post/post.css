@@ -1,0 +1,48 @@
+.post-compo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdfbfb;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.post-compo-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post-compo img{
+    width: 100%;
+    max-width: 385px;
+    height: 280;
+    border-radius: 10px;
+    
+}
+
+.post-compo h6{
+    margin-top: 10px;
+    color: #555;
+}
+.post-compo  h4{
+    font-weight: bold;
+}
+.post-compo .h6-2{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.post-compo p{
+    color: #444;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+}

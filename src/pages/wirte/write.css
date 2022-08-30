@@ -1,0 +1,62 @@
+.write{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.all-write{
+  
+}
+
+.all-write img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.all-write .input-tilte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.all-write .input-tilte .send-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom : 10px
+}
+
+.all-write .input-tilte .send-input .icon{
+    margin-right: 2px;
+   cursor: pointer;
+   color: rgb(108, 104, 104);
+}
+
+.all-write .input-tilte .send-input input{
+    border: none;
+    font-size: 35px;
+    width: 100%;
+}
+
+.all-write .input-tilte .send-input input:focus{
+    outline: none;
+}
+
+.all-write textarea{
+    border: none;
+    font-size: 30px;
+    padding:20px ;
+    width: 70%;
+    resize: none;
+}
+.all-write textarea:focus{
+    outline: none;
+}
+
+@media screen and (max-width : 550px) {
+    .all-write .input-tilte{
+        flex-direction: column;
+    }
+}

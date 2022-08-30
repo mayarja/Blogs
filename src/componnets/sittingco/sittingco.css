@@ -1,0 +1,76 @@
+.sitting-co{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 30px;
+}
+
+.sitting-co .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px 20px 5px;
+}
+.sitting-co .title .larg-span{
+    color: rgb(240, 114, 135);
+    font-size: 30px;
+}
+.sitting-co .title .smull-span{
+    color: rgb(190, 35, 100);
+}
+
+.sitting-co .form-all{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sitting-co .form-all .box-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.sitting-co .form-all .box-upload img{
+    width: 70px;
+    height: 70px;
+    border-radius:10px ;
+    margin-right: 8px;
+}
+
+.sitting-co .form-all .box-upload .icon{
+    color: rgb(240, 114, 135);
+    cursor: pointer;
+}
+
+.sitting-co .form-all label{
+    color : #444;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.sitting-co .form-all input{
+    border: 0;
+    border-bottom: 1px solid #444;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.sitting-co .form-all input:focus{
+    outline: none;
+}
+.sitting-co .form-all .btn{
+    background-color: rgb(27, 67, 27);
+    padding: 5px 10px; 
+    color: #fff;
+    border: none;
+    align-self: center;
+    transition: all ease 0.3s;
+}
+
+.sitting-co .form-all .btn:hover{
+    padding: 8px 15px;
+    
+}

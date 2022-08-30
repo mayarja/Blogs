@@ -1,0 +1,73 @@
+.slidbar{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 10px;
+    background-color: #f6eded;
+    border-radius: 10px;
+    margin: 10px;
+    font-family:  sans-serif;
+    color: #222;
+    height: fit-content;
+}
+.slidbar .slide-about{
+    text-align: center;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    width: 80%;
+    
+}
+.slidbar .img-title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.slidbar .img-title img{
+    width: 250px;
+    height: 250px;
+}
+.slidbar .img-title p{
+    padding: 30px 15px;
+}
+
+.slidbar .links-slidbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.slidbar .links-slidbar h3{
+    text-align: center;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    width: 100%;
+}
+.slidbar .links-slidbar ul li{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.slidbar .follow-slidbar{
+    width: 80%;
+}
+
+.slidbar .follow-slidbar h3{
+    text-align: center;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    width: 100%;
+}
+.slidbar .follow-slidbar .icons-slidbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
